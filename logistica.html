@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./logistica.css">
+    <title>Logística</title>
+</head>
+<body>
+    
+    <header><h1>Listagem Logística</h1></header>
+
+    <div id="inputes">
+        <span><h3>Listagem de Ítem</h3></span>
+
+        <label for="item">Ítem:</label>
+        <input type="text" id="item">
+        <label for="identificador">Código:</label>
+        <input type="text" id="codigo">
+
+        <div>
+            <button id="but" onclick="produto.adicionar()">INCLUIR</button>
+            <button id="but2" onclick="produto.remover()">REMOVER</button>
+        </div>
+
+    </div>
+
+        <div id="imagem">
+        <img src="./apagada.jpg" alt="" id="imag">
+        </div>
+    
+    
+    <table border="1">
+
+        <thead>
+            <td>ID</td>
+            <td>Ítem</td>
+            <td>CÓDIGO</td>
+            <td>AÇÃO</td>
+        </thead>
+
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+    
+    
+    
+    
+    
+    
+   
+    <script src="./logistica.js"></script>
+</body>
+</html>

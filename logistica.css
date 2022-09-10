@@ -1,0 +1,68 @@
+*{
+    margin:0 ;}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    text-align: center;
+    background: rgb(248, 187, 74);
+}
+
+div#inputes{
+
+    font-size: 16pt;
+    padding: 30px;
+}
+
+button{
+
+    background: rgb(255, 195, 85);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100px;
+}
+
+button:hover{
+
+    background-color: orange;
+}
+
+div#imagem{
+
+    text-align: end;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    color: rgb(185, 126, 16);
+}
+
+input#item{
+    width: 100%;
+    border: 1px solid orange;
+    border-radius: 20px;
+    font-size: 15pt;
+    outline: none;
+}
+
+input#codigo{
+    width: 100%;
+    border: 1px solid orange;
+    border-radius: 20px;
+    font-size: 15pt;
+    outline: none;
+}
+
+#imag{
+    
+    width: 100px;
+    height: 120px;
+}
+
+div#tbody{
+    font-size: 14pt;
+}
